@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "69bbb6dd76d4d416fe9255c8"
+  },
+  "product_id": "G3001",
+  "name": "Organic Almonds 500g",
+  "category": "Groceries",
+  "brand": "Organic India",
+  "price": 750,
+  "weight": "500g",
+  "expiry_date": "2026-05-15",
+  "nutritional_info": {
+    "calories": 579,
+    "protein": "21g",
+    "fat": "50g"
+  },
+  "storage_instructions": "Store in a cool, dry place",
+  "ingredients": [
+    "Almonds"
+  ],
+  "ratings": {
+    "average": 4.7,
+    "reviews": 890
+  }
+}]
