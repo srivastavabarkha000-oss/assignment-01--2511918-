@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "69bbb74676d4d416fe9255cc"
+  },
+  "product_id": "E1001",
+  "name": "Smart LED TV 55 inch",
+  "category": "Electronics",
+  "brand": "Samsung",
+  "price": 64999,
+  "specifications": {
+    "screen_size": "55 inch",
+    "resolution": "4K UHD",
+    "voltage": "220V",
+    "smart_features": [
+      "Netflix",
+      "YouTube",
+      "Prime Video"
+    ]
+  },
+  "warranty": {
+    "period": "2 years",
+    "type": "Manufacturer"
+  },
+  "ratings": {
+    "average": 4.5,
+    "reviews": 1200
+  }
+}]
