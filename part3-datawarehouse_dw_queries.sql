@@ -73,6 +73,7 @@ INSERT INTO fact_sales VALUES
 (9, 9, 1, 2, 12, 22000.00, 264000.00),
 (10, 10, 2, 5, 7, 60000.00, 420000.00);
 
+-- Q1: Total sales revenue by product category for each month
 SELECT 
     d1.year,
     d1.month,
@@ -87,8 +88,9 @@ GROUP BY
     d1.year, d1.month, p1.category
 ORDER BY 
     d1.year, d1.month, p1.category;
-    
-    SELECT 
+
+-- Q2: Top 2 performing stores by total revenue
+SELECT 
     s1.store_name,
     SUM(f1.total_amount) AS total_revenue
 FROM fact_sales f1
@@ -100,6 +102,7 @@ ORDER BY
     total_revenue DESC
 LIMIT 2;
 
+-- Q3: Month-over-month sales trend across all stores
 SELECT 
     year,
     month,
