@@ -1,4 +1,4 @@
-# assignment-01--2511918-
+# assignment-02-bitsom_ba_2511918
 Assignment for RDBMS, NoSQL, Data Warehouse, Vector Databases, Data Lakes &amp; DuckDB, Capstone Design
 part1-rdbms/normalization.md
 
